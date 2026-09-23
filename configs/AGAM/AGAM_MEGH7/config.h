@@ -120,7 +120,6 @@
     TIMER_PIN_MAP( 9, PA15, 1, -1)
 
 #define ADC1_DMA_OPT         9
-#define TIMUP1_DMA_OPT       10
 #define TIMUP3_DMA_OPT       11
 #define TIMUP4_DMA_OPT       12
 #define TIMUP5_DMA_OPT       13
@@ -156,3 +155,5 @@
 // boot; the USER1 box then pulls it low to cut VTX power.
 #define PINIO1_CONFIG                129
 #define PINIO1_BOX                   40
+#define PINIO2_BOX                   41
+#define PINIO3_BOX                   42
